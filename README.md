@@ -109,7 +109,6 @@ Once running, open your browser at:
 - Move the JWT secret to environment variables / Azure Key Vault (flagged in a code comment)
 - Add unit tests using xUnit and Moq against the service interfaces
 - Replace SQLite with SQL Server and add proper connection string management
-- Add a `bin/` and `obj/` entry to `.gitignore` to avoid committing build artifacts
 - Introduce a proper DTO layer to avoid exposing domain models directly from the API
 
 ---
